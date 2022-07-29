@@ -1,0 +1,108 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.JakMall" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimary</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/colorPrimary</item>
+        <item name="colorSecondaryVariant">@color/colorPrimary</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <item name="android:fontFamily">@font/raleway_regular</item>
+        <item name="android:textColor">@color/colorSecondary</item>
+        <item name="android:textSize">@dimen/font_normal</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="textBlack" parent="@android:style/TextAppearance">
+        <item name="android:fontFamily">@font/raleway_black</item>
+    </style>
+
+    <style name="textBold" parent="@android:style/TextAppearance">
+        <item name="android:fontFamily">@font/raleway_bold</item>
+    </style>
+
+    <style name="textExtraBold" parent="@android:style/TextAppearance">
+        <item name="android:fontFamily">@font/raleway_extra_bold</item>
+    </style>
+
+    <style name="textMedium" parent="@android:style/TextAppearance">
+        <item name="android:fontFamily">@font/raleway_medium</item>
+    </style>
+
+    <style name="textRegular" parent="@android:style/TextAppearance">
+        <item name="android:fontFamily">@font/raleway_regular</item>
+    </style>
+
+    <style name="textSemiBold" parent="@android:style/TextAppearance">
+        <item name="android:fontFamily">@font/raleway_semi_bold</item>
+    </style>
+
+    <style name="textMedium.fontColorPrimary">
+        <item name="android:textSize">@dimen/font_tiny</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="textMedium.fontColorPrimary1">
+        <item name="android:textSize">@dimen/font_tiny</item>
+        <item name="android:textColor">@color/colorPrimary1</item>
+    </style>
+
+    <style name="textRegular.fontTinyColorSecondary">
+        <item name="android:textSize">@dimen/font_tiny</item>
+        <item name="android:textColor">@color/colorSecondary</item>
+    </style>
+
+    <style name="textRegular.fontSmallColorSecondary">
+        <item name="android:textSize">@dimen/font_small</item>
+        <item name="android:textColor">@color/colorSecondary</item>
+    </style>
+
+    <style name="textRegular.fontColorSecondary">
+        <item name="android:textSize">@dimen/font_normal</item>
+        <item name="android:textColor">@color/colorSecondary</item>
+    </style>
+
+    <style name="textRegular.fontColorPrimary">
+        <item name="android:textSize">@dimen/font_normal</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="textRegular.fontLargeColorSecondary">
+        <item name="android:textSize">@dimen/font_large</item>
+        <item name="android:textColor">@color/colorSecondary</item>
+    </style>
+
+    <style name="textMedium.fontColorSecondary">
+        <item name="android:textSize">@dimen/font_normal</item>
+        <item name="android:textColor">@color/colorSecondary</item>
+    </style>
+
+    <style name="textExtraBold.fontColorSecondary">
+        <item name="android:textSize">@dimen/font_normal</item>
+        <item name="android:textColor">@color/colorSecondary</item>
+    </style>
+
+    <style name="textBold.fontColorSecondary">
+        <item name="android:textSize">@dimen/font_normal</item>
+        <item name="android:textColor">@color/colorSecondary</item>
+    </style>
+
+    <style name="textBold.fontColorPrimary">
+        <item name="android:textSize">@dimen/font_normal</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="textBold.fontLargeColorSecondary">
+        <item name="android:textSize">@dimen/font_large</item>
+        <item name="android:textColor">@color/colorSecondary</item>
+    </style>
+
+    <style name="CustomDialogTheme">
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+</resources>

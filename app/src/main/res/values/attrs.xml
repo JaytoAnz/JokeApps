@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PrimaryButton">
+        <attr name="textLeft" format="string" />
+        <attr name="text" format="string" />
+        <attr name="iconRight" format="reference" />
+        <attr name="backgroundDrawables" format="reference" />
+        <attr name="backgroundDrawablesDisable" format="reference" />
+        <attr name="enableClick" format="boolean" />
+        <attr name="backgroundColorDisable" format="color" />
+        <attr name="backgroundTextLeft" format="reference" />
+        <attr name="backgroundTextLeftDisable" format="reference" />
+        <attr name="backgroundIconRight" format="reference" />
+        <attr name="textPrimaryColor" format="color" />
+    </declare-styleable>
+</resources>

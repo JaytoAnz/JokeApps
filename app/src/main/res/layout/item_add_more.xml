@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.jayto.jakmall.utils.component.PrimaryButton
+        android:id="@+id/btn_add_more"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/height_button"
+        app:text="@string/text_add_more"
+        app:backgroundDrawables="@drawable/bg_rectangle_red_stroke"
+        app:backgroundDrawablesDisable="@drawable/bg_rectangle_silver_stroke"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
